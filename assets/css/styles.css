@@ -1,0 +1,267 @@
+*{
+    margin: 8px;
+    margin-left: 3rem;
+}
+
+body{
+    background: #fafafa;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+a{
+    margin: 0px;
+    text-decoration: none;
+}
+
+p{
+    margin: 0px;
+}
+
+img{
+    margin: 0px;
+}
+
+span{
+    margin: 0px;
+}
+
+strong{
+    margin: 0px;
+}
+
+form{
+    position: absolute;
+    top: 120px;
+    margin: 0;
+}
+
+#email{
+    position: relative;
+    right: 92px;
+}
+
+#password{
+    position: relative;
+    right: 92px;
+}
+
+.registerlink{
+    color: #0095f8;
+    margin: 0px 0px 0px 5px;
+}
+
+section{
+    align-items: center;
+    display: flex;
+}
+
+#img-telefone{
+    padding: 5px 0px 0px 50px;
+}
+
+#slider img{
+    opacity: 0;
+    position: absolute;
+    bottom: 100px;
+    right: 700px;
+    object-fit: cover;
+    transition: opacity 3000ms;
+}
+
+#slider img.selected{
+    opacity: 1;
+}
+
+.container-log{
+    margin-bottom: 8.5rem;
+    position: absolute;
+    margin-left: 550px;
+    display: block;
+    width: 21rem;
+    height: 30rem;
+
+}
+
+.container-info{
+    margin: 0px 0px 0px 0px;
+    position: absolute;
+    width: 21rem;
+}
+
+.imgs{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 10px 0 10px 0;
+}
+
+.googleplayImg{
+    margin: 0px 5px 0px 0px;
+}
+
+.microsftImg{
+    margin: 0px 20px 0px 0px;
+}
+
+.background1{
+    border: 1px solid #e0dfdf;
+    background: #FFFFFF;
+    border-radius: 1px;
+    width: 348px;
+    margin: 0px 0px 10px;
+    padding: 10px 0px;
+    height: 24rem;
+}
+
+.background2{
+    border: 1px solid #e0dfdf;
+    background: #FFFFFF;
+    border-radius: 1px;
+    width: 348px;
+    margin: 0px 0px 10px;
+    padding: 3px 0px;
+}
+
+.text-login {
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    margin-left: 10px;
+    text-align: center;
+    padding: 10px;
+}
+
+.text-info span{
+    margin-left: 3rem;
+}
+
+.img-tilte{
+    padding: 30px;
+    margin: 0;
+}
+
+.logotile{
+    margin-left: 3rem;
+    padding: 5px;
+}
+
+form input{
+    margin-bottom: -10px;
+}
+
+form button{
+    top: 10px;
+    background-color: #0095f8;
+    position: relative;
+    font-weight: bold;
+    cursor: pointer;
+    color: #fafafa;
+    border: 0;
+    padding: 8px 40px;
+    border-radius: 6px;
+    right: 43px;
+    width: 90%;
+}
+
+form button:active{
+    background-color: #0380d3;
+}
+
+.input-box input{
+    width: 110%;
+    font-size: 12px;
+    outline: none;
+    padding: 11px 0 11px 8px;
+    text-overflow: ellipsis;
+    border-radius: 3px;
+    background-color: #FAFAFA;
+    border: 1px solid #e0dfdf;
+}
+
+form input:focus{
+    border: 1px solid #b9b9b9;
+}
+
+form .option{
+    color: #8e8e8e;
+    font-weight: bold;
+    font-size: 13px;
+    margin-left: 110px;
+    position: relative;
+    top: 10px;
+}
+
+form .option::before{
+    position: absolute;
+    background-color: #DBDBDB;
+    content: '';
+    width: 55%;
+    height: 1px;
+    left: -100px;
+    top: 8px;
+}
+
+form .option::after{
+    position: absolute;
+    background-color: #DBDBDB;
+    content: '';
+    width: 60%;
+    height: 1px;
+    right: 20px;
+    top: 8px;
+}
+
+.fblink a{
+    color: #385195;
+    position: absolute;
+    font-weight: 500;
+    left: 110px;
+    bottom: -45px;
+    font-size: 14px;
+}
+
+.fblink img{
+    position: absolute;
+    left: 87px;
+    bottom: -44px;
+}
+
+.forget-id{
+    color: #00676B;
+    position: absolute;
+    font-size: 12px;
+    left: 75px;
+    bottom: -90px;
+}
+
+.forget-id a{
+    color: #00376B;
+}
+
+
+footer{
+    color: #8E8E8E;
+    font-size: 12px;
+    padding: 0px 0px 20px 0px;
+    margin: 0px;
+}
+
+footer a{
+    color: #8E8E8E;
+}
+
+footer select{
+    font-size: 12px;
+    color: #8E8E8E; 
+    outline: none;
+    border: 0;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+}
+
+ul a li{
+    margin: -2px 8px -3px;
+}
