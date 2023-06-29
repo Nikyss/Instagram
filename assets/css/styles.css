@@ -62,8 +62,8 @@ section{
 #slider img{
     opacity: 0;
     position: absolute;
-    bottom: 100px;
-    right: 700px;
+    bottom: 68px;
+    right: 701px;
     object-fit: cover;
     transition: opacity 3000ms;
 }
